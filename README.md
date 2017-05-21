@@ -39,6 +39,7 @@ ToFile.writeTxtToFile(cursor.getString(colNoteIndex),filePath,cursor.getString(c
 ```  
 通过writeTxtToFile可以预先创建文件夹并且创建文件时将笔记中的标题以及文本信息写入txt格式的文件当中。
  注意： 
- ```        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ ```        
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
  ```  
  需要在AndroidManifest.xml添加上述代码，应用才具有文件写入权限。

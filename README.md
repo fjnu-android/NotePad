@@ -28,7 +28,7 @@
     
 4--笔记导出
 ![image](https://github.com/fjnu-android/NotePad/blob/master/demo/4.png)
-![image](https://github.com/fjnu-android/NotePad/blob/master/demo/6.png)
+![image](https://github.com/fjnu-android/NotePad/blob/master/demo/5.png)
 
 //设置文件路径
 String filePath = Environment.getExternalStorageDirectory().getPath() + "/NotePad/ExportTxt/";
